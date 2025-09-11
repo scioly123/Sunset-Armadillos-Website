@@ -10,10 +10,11 @@
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
         body {
             font-family: 'Inter', sans-serif;
-            color: #1a202c;
-            background-color: #ffffff;
         }
         .bg-sunset-purple {
+            background-color: #492F92;
+        }
+        .text-sunset-purple {
             color: #492F92;
         }
     </style>
@@ -25,11 +26,11 @@
         <div class="container mx-auto px-4 md:px-6 flex flex-col md:flex-row justify-between items-center text-center md:text-left">
             <h1 class="text-3xl md:text-4xl font-bold tracking-tight transform hover:scale-105 transition-transform duration-300">Sunset Armadillos Science Olympiad</h1>
             <nav class="mt-4 md:mt-0 space-x-6">
-                <a href="#about" class="hover:underline transition-all">About Us</a>
-                <a href="#what-is" class="hover:underline transition-all">What is SciOly?</a>
-                <a href="#our-story" class="hover:underline transition-all">Our Story</a>
-                <a href="#join" class="hover:underline transition-all">Join Us</a>
-                <a href="#contact" class="hover:underline transition-all">Contact</a>
+                <a href="#about" class="text-white hover:underline transition-all">About Us</a>
+                <a href="#what-is" class="text-white hover:underline transition-all">What is SciOly?</a>
+                <a href="#our-story" class="text-white hover:underline transition-all">Our Story</a>
+                <a href="#join" class="text-white hover:underline transition-all">Join Us</a>
+                <a href="#contact" class="text-white hover:underline transition-all">Contact</a>
             </nav>
         </div>
     </header>
@@ -37,15 +38,15 @@
     <!-- Hero Section -->
     <main class="py-16 md:py-24">
         <div class="container mx-auto px-4 md:px-6">
-            <div class="bg-sunset-purple rounded-lg p-8 md:p-12 shadow-xl flex flex-col md:flex-row items-center justify-between space-y-8 md:space-y-0 md:space-x-12 border border-gray-200">
+            <div class="bg-white rounded-lg p-8 md:p-12 shadow-xl flex flex-col md:flex-row items-center justify-between space-y-8 md:space-y-0 md:space-x-12 border border-gray-200">
                 <div class="md:w-1/2 text-center md:text-left">
-                    <h2 class="text-4xl md:text-6xl font-extrabold text-white leading-tight mb-4 transform hover:scale-105 transition-transform duration-300">
+                    <h2 class="text-4xl md:text-6xl font-extrabold text-sunset-purple leading-tight mb-4 transform hover:scale-105 transition-transform duration-300">
                         We are the Sunset Armadillos!
                     </h2>
                     <p class="text-gray-700 text-lg md:text-xl leading-relaxed mb-6">
                         A highly competitive team of 12 motivated students with a shared passion for science. We are multi-medalists at the state level and have represented Oregon at the national competition.
                     </p>
-                    <a href="#join" class="inline-block bg-white text-sunset-purple text-lg font-semibold px-8 py-3 rounded-full hover:bg-opacity-90 transition-all shadow-md">
+                    <a href="#join" class="inline-block bg-sunset-purple text-white text-lg font-semibold px-8 py-3 rounded-full hover:bg-opacity-90 transition-all shadow-md">
                         Join Our Team
                     </a>
                 </div>
@@ -104,7 +105,7 @@
     </section>
     
     <!-- Our Story Section -->
-    <section id="our-story" class="py-16 bg-gray-50 text-sunset-purple">
+    <section id="our-story" class="py-16 bg-gray-50">
         <div class="container mx-auto px-4 md:px-6 text-center">
             <h2 class="text-3xl md:text-4xl font-bold text-sunset-purple mb-8 transform hover:scale-105 transition-transform duration-300">Our Story</h2>
             <div class="bg-white p-8 rounded-lg shadow-md border border-gray-200">
@@ -153,3 +154,7 @@
         <div class="container mx-auto px-4 md:px-6 text-center text-sm">
             <p>&copy; 2025 Sunset Armadillos Science Olympiad. All Rights Reserved.</p>
         </div>
+    </footer>
+
+</body>
+</html>
